@@ -9,13 +9,13 @@ A PyTorch-based Convolutional Neural Network (CNN) to classify histopathology im
 ```
 project/
 │
-├── model.py
-├── train.py
-├── data_preprocessing.py
-├── README.md
+├── model.py              # model definition
+├── train.py              # script to train and evaluate the model
+├── data_preprocessing.py # preprocessing and data splitting script
+├── README.md             # project documentation
 └── data/
-    ├── raw/
-    ├── processed/
+    ├── raw/             # <- place the raw BreakHis dataset here
+    ├── processed/       # processed dataset for training and validation
     │   ├── train/
     │   └── val/
 ```
